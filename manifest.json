@@ -14,5 +14,9 @@
         "default_popup": "popup/popup.html"
 
     },
-    "permissions": ["storage", "notifications"]
+    "permissions": ["storage",  "alarms", "notifications"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options/options.html"
 }
