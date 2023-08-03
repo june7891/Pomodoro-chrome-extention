@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #0d4eaf, #0084dd, #00b0c9, #00d480, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+    color: white;
+}
+
+input[type=number] {
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    width: 240px;
+    padding: 5px;
+}
+
+#save-options-btn{
+    display: block;
+    margin-top: 40px;
+        border-radius: 10px;
+    background-color: white;
+    border: none;
+    /* width: px; */
+    cursor: pointer;
+    color:#0084dd;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+
+#save-options-btn:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

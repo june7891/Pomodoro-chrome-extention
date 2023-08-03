@@ -1,13 +1,81 @@
 body{
-    height: 500px;
+    height: 400px;
     width: 300px;
+    background-image: linear-gradient(to left bottom, #0d4eaf, #0084dd, #00b0c9, #00d480, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .icon {
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
 }
 .icon img {
     height: 100%;
+}
+
+button {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    height: 24px;
+    width: 90px;
+    cursor: pointer;
+    color:#0084dd;
+}
+
+
+button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+h1 {
+    color: #fefefe;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    height: 24px;
+}
+
+input[type=text] {
+    outline: none;
+    color: #0084dd;
+    padding: 1px 1px 1px 10px;
+}
+
+input[type=button] {
+    border-radius: 8px;
+    background-color: rgb(253, 70, 70);
+    color: #fefefe;
+    cursor: pointer;
+    width: 32px;
+    margin: 5px;
+    height: 26px;
+    
+}
+
+
+ .btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+ }
+
+#task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
